@@ -1,0 +1,8 @@
+.currency {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr); /* Four columns */
+    grid-gap: 5px; /* Optional spacing between items */
+  }
+  
+ 
+  

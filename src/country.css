@@ -1,0 +1,26 @@
+.country-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust spacing between items */
+    justify-content: space-around; /* Adjust alignment as needed */
+}
+.country-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust alignment as needed */
+}
+
+.country-item {
+    flex: 1 0 23%; /* Adjust item width to fit 4 items per row */
+    text-align: center; /* Center align text */
+    margin-bottom: 20px; /* Adjust spacing between rows */
+}
+
+.country-item img {
+    width: 100px; /* Adjust flag image size as needed */
+    height: auto;
+    margin-bottom: 10px; /* Adjust spacing between flag and text */
+}
